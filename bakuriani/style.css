@@ -1,63 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  /* ფიფქი ნიშნავს ყველას ანუ რას ვგულისხმობ რაც საიტზე წერია ყველას გაუკეთებს *ში ჩაწერილ ბრძანებას Marjin არის ტექსტების შორის დაშორება pading არის   */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 #blar {
-    width: 100%;
-    height: 100vh;
-    background-image: url('https://cdn.discordapp.com/attachments/1266318361625886760/1266415216627945515/hotel2.png?ex=66a51094&is=66a3bf14&hm=91e90ce09bd4eefa03af9e8c921a2a9ef761051c93f25012c16a41f74d9a4b34&');
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    /*  Bckground-img რა ურლსსაც გადავცემთ ის იქნება Backgroundის ფონად*/
+  width: 100%;
+  height: 100vh;
+  background-image: url("./bg4.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .conteiner {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(86,86,86,0.3);
-    backdrop-filter: blur(5px);
-    position: absolute;
-    left: 0;
-    top: 0;
+  /*Background-color ამ შემთხვევაში გვაქ ბლურისთვის გაკეთბული rgba არის ფერის მისამართი ანუ ბკურის ფერის მისამართი backdrop-filter blur(9px) აკეთებს  ბლურს ოღონდ 9px სიღიავით უფრო დიდი რაოდენობის px რომ gavakeTo ufro muqi blur იქნება */
+  width: 50%;
+  height: 100vh;
+  background-color: rgba(86, 86, 86, 0.3);
+  backdrop-filter: blur(9px);
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .info {
-    width: 550px;
-    color: #fff;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  /* top ზევით აწევა, right 0 ნიშნავს რომ მარჯვნივ არ უნდა გაწიოს poaition არის პოზიცია და absolute აკეთებს ინლაინად color ტექსს უცვლის ფერს width სიდიდეს */
+  width: 550px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .info h1 {
-    font-size: 60px;
-    letter-spacing: 10px;
+  /* font-sizeი ადიდებს ტექსტს ან ფოტოს  letter-spacingი ადიდებს დაშორებას ასოებს შორის*/
+  font-size: 60px;
+  letter-spacing: 10px;
 }
 
 .info p {
-    color: #f0eef1;
-    font-size: 11px;
-    margin: 20px 0;
-    line-height: 18px;
-
+  /* marginი ტექსტებს შორის აკეთებს დაშორებას line-heightი ამ შემთხვევაში აკეთებს ღილაკსა და ტექსტს შორის დაშორებას */
+  color: #f0eef1;
+  font-size: 11px;
+  margin: 20px 0;
+  line-height: 18px;
 }
 
 button {
-    width: 90px;
-    font-weight: 700;
-    height: 40px;
-    border: none;
-    transition: 0.4s;
-    border-radius: 20px;
-    margin: 5px;
-    background-color: black;
-    color: white;
-  }
-  
-  button:hover {
-    background-color: lime;
-    cursor: pointer;
-  }
+  /* transition ღილაკთან როცა მივიტანთ კურსორს 0.4 წამში გამწვანდება თავიდან ბოლომდე ღილაკი და როცა გავუშვებთ 0.4 ჩაქრება */
+  width: 90px;
+  font-weight: 700;
+  height: 40px;
+  border: none;
+  transition: 0.4s;
+
+  margin: 5px;
+}
+/* hover როცა მივიტანთ ღილაკთან კურსორს გამწვანდება */
+button:hover {
+  background-color: lime;
+  cursor: pointer;
+}

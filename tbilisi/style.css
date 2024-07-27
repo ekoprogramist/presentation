@@ -1,4 +1,5 @@
 * {
+    /* ფიფქი ნიშნავს ყველას ანუ რას ვგულისხმობ რაც საიტზე წერია ყველას გაუკეთებს *ში ჩაწერილ ბრძანებას Marjin არის ტექსტების შორის დაშორება pading არის   */
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -14,6 +15,7 @@
 }
 
 .conteiner {
+    /*Background-color ამ შემთხვევაში გვაქ ბლურისთვის გაკეთბული rgba არის ფერის მისამართი ანუ ბკურის ფერის მისამართი backdrop-filter blur(9px) აკეთებს  ბლურს ოღონდ 9px სიღიავით უფრო დიდი რაოდენობის px რომ gavakeTo ufro muqi blur იქნება */
     width: 100%;
     height: 100vh;
     background-color: rgba(86,86,86,0.3);
@@ -24,6 +26,7 @@
 }
 
 .info {
+    /* top ზევით აწევა, right 0 ნიშნავს რომ მარჯვნივ არ უნდა გაწიოს poaition არის პოზიცია და absolute აკეთებს ინლაინად color ტექსს უცვლის ფერს width სიდიდეს */
     width: 550px;
     color: #fff;
     position: absolute;
@@ -33,11 +36,13 @@
 }
 
 .info h1 {
+    /* font-sizeი ადიდებს ტექსტს ან ფოტოს  letter-spacingი ადიდებს დაშორებას ასოებს შორის*/
     font-size: 60px;
     letter-spacing: 10px;
 }
 
 .info p {
+    /* marginი ტექსტებს შორის აკეთებს დაშორებას line-heightი ამ შემთხვევაში აკეთებს ღილაკსა და ტექსტს შორის დაშორებას */
     color: #f0eef1;
     font-size: 11px;
     margin: 20px 0;
@@ -45,6 +50,7 @@
 
 }
 button {
+    /* transition ღილაკთან როცა მივიტანთ კურსორს 0.4 წამში გამწვანდება თავიდან ბოლომდე ღილაკი და როცა გავუშვებთ 0.4 ჩაქრება */
     width: 90px;
     font-weight: 700;
     height: 40px;
@@ -57,6 +63,7 @@ button {
   }
   
   button:hover {
+    /* hover როცა მივიტანთ ღილაკთან კურსორს გამწვანდება */
     background-color: lime;
     cursor: pointer;
   }
