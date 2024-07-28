@@ -51,17 +51,19 @@
 }
 
 button {
-  /* transition ღილაკთან როცა მივიტანთ კურსორს 0.4 წამში გამწვანდება თავიდან ბოლომდე ღილაკი და როცა გავუშვებთ 0.4 ჩაქრება */
-  width: 90px;
-  font-weight: 700;
-  height: 40px;
-  border: none;
-  transition: 0.4s;
-
-  margin: 5px;
-}
-/* hover როცა მივიტანთ ღილაკთან კურსორს გამწვანდება */
-button:hover {
-  background-color: lime;
-  cursor: pointer;
-}
+    width: 90px;
+    font-weight: 700;
+    height: 40px;
+    border: none;
+    transition: 0.4s;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: lime;
+    cursor: pointer;
+  }
+  
