@@ -6,10 +6,9 @@
 }
 
 #blar {
-    /*  Bckground-img რა ურლსსაც გადავცემთ ის იქნება Backgroundის ფონად*/
   width: 100%;
   height: 100vh;
-  background-image: url("./bg4.png");
+  background-image: url('https://cdn.discordapp.com/attachments/1266318361625886760/1266415216627945515/hotel2.png?ex=66a7b394&is=66a66214&hm=104fbca5ccdfe7c64615752e2ccb81af88c5aeaa14629fb9ba44ed8085e5a135&');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -17,10 +16,10 @@
 
 .conteiner {
   /*Background-color ამ შემთხვევაში გვაქ ბლურისთვის გაკეთბული rgba არის ფერის მისამართი ანუ ბკურის ფერის მისამართი backdrop-filter blur(9px) აკეთებს  ბლურს ოღონდ 9px სიღიავით უფრო დიდი რაოდენობის px რომ gavakeTo ufro muqi blur იქნება */
-  width: 50%;
+  width: 100%;
   height: 100vh;
-  background-color: rgba(86, 86, 86, 0.3);
-  backdrop-filter: blur(9px);
+  background-color: rgba(86,86,86,0.3);
+  backdrop-filter: blur(5px);
   position: absolute;
   left: 0;
   top: 0;
@@ -48,8 +47,8 @@
   font-size: 11px;
   margin: 20px 0;
   line-height: 18px;
-}
 
+}
 button {
   /* transition ღილაკთან როცა მივიტანთ კურსორს 0.4 წამში გამწვანდება თავიდან ბოლომდე ღილაკი და როცა გავუშვებთ 0.4 ჩაქრება */
   width: 90px;
@@ -57,11 +56,14 @@ button {
   height: 40px;
   border: none;
   transition: 0.4s;
-
+  border-radius: 20px;
   margin: 5px;
+  background-color: black;
+  color: white;
 }
-/* hover როცა მივიტანთ ღილაკთან კურსორს გამწვანდება */
+
 button:hover {
+  /* hover როცა მივიტანთ ღილაკთან კურსორს გამწვანდება */
   background-color: lime;
   cursor: pointer;
 }

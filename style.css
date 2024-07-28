@@ -9,7 +9,7 @@
   /*  Bckground-img რა ურლსსაც გადავცემთ ის იქნება Backgroundის ფონად*/
   width: 100%;
   height: 100vh;
-  background-image: url("./bg4.png");
+  background-image: url("/bg4.png");
   background-size: cover;
   background-position: center;
   position: relative;
