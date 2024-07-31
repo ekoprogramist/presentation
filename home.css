@@ -43,6 +43,7 @@
 
 }
 
+
 button {
   width: 90px;
   font-weight: 700;
@@ -51,12 +52,12 @@ button {
   transition: 0.4s;
   border-radius: 20px;
   margin: 5px;
-  background-color: black;
-  color: white;
+  background-color: rgba(86, 86, 86, 0.3);
+  backdrop-filter: blur(9px);
 }
 
 button:hover {
-  background-color: lime;
+  /* hover როცა მივიტანთ მაუსის ფორმა შეიცვლება*/
   cursor: pointer;
 }
 

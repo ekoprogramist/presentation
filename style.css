@@ -50,20 +50,20 @@
   line-height: 18px;
 }
 
+
 button {
-    width: 90px;
-    font-weight: 700;
-    height: 40px;
-    border: none;
-    transition: 0.4s;
-    border-radius: 20px;
-    margin: 5px;
-    background-color: black;
-    color: white;
-  }
-  
-  button:hover {
-    background-color: lime;
-    cursor: pointer;
-  }
-  
+  width: 90px;
+  font-weight: 700;
+  height: 40px;
+  border: none;
+  transition: 0.4s;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: rgba(86, 86, 86, 0.3);
+  backdrop-filter: blur(9px);
+}
+
+button:hover {
+  /* hover როცა მივიტანთ მაუსის ფორმა შეიცვლება*/
+  cursor: pointer;
+}

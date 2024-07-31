@@ -29,7 +29,7 @@
   /* top ზევით აწევა, right 0 ნიშნავს რომ მარჯვნივ არ უნდა გაწიოს poaition არის პოზიცია და absolute აკეთებს ინლაინად color ტექსს უცვლის ფერს width სიდიდეს */
   width: 550px;
   color: #fff;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -50,7 +50,6 @@
 
 }
 button {
-  /* transition ღილაკთან როცა მივიტანთ კურსორს 0.4 წამში გამწვანდება თავიდან ბოლომდე ღილაკი და როცა გავუშვებთ 0.4 ჩაქრება */
   width: 90px;
   font-weight: 700;
   height: 40px;
@@ -58,12 +57,25 @@ button {
   transition: 0.4s;
   border-radius: 20px;
   margin: 5px;
-  background-color: black;
-  color: white;
+  background-color: rgba(86, 86, 86, 0.3);
+  backdrop-filter: blur(9px);
 }
 
 button:hover {
-  /* hover როცა მივიტანთ ღილაკთან კურსორს გამწვანდება */
-  background-color: lime;
+  /* hover როცა მივიტანთ მაუსის ფორმა შეიცვლება*/
   cursor: pointer;
+}
+
+.input1{
+  height: 30px;
+  width: 230px;
+  border-radius: 8px;
+  background-color: #E8F0FE;
+}
+
+.input2{
+  height: 30px;
+  width: 230px;
+  border-radius: 8px;
+  background-color: #E8F0FE;
 }

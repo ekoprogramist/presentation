@@ -1,7 +1,8 @@
 body {
-    background-color: black;
+    background: linear-gradient(black, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
-    font-size: medium;
     text-align: center;
 }
 
