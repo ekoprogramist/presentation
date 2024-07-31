@@ -7,7 +7,7 @@
 #blar {
     width: 100%;
     height: 100vh;
-    background-image: url('https://cdn.discordapp.com/attachments/1266318361625886760/1266417539572039743/gistola-hotel-mestia.png?ex=66a512be&is=66a3c13e&hm=c77368e92ad2589118ccab5d1b7580f660c19612dc96477c09dce6492e7a367b&');
+    background-image: url('./gistola-hotel-mestia.png');
     background-size: cover;
     background-position: center;
     position: relative;

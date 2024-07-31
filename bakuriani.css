@@ -8,7 +8,7 @@
 #blar {
   width: 100%;
   height: 100vh;
-  background-image: url('https://cdn.discordapp.com/attachments/1266318361625886760/1266415216627945515/hotel2.png?ex=66a7b394&is=66a66214&hm=104fbca5ccdfe7c64615752e2ccb81af88c5aeaa14629fb9ba44ed8085e5a135&');
+  background-image: url('./hotel2.png');
   background-size: cover;
   background-position: center;
   position: relative;
